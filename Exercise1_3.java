@@ -1,24 +1,22 @@
 /**
  * Exercise 1.3 - Area of a circle
  *
- * Area = pi * radius * radius (pi * r^2). Try it with several different values
- * for the radius and use 3.14 for pi.
- * Hint: To calculate the square use Java method Math.pow(i, 2), which is the equivalent of i^2.
+ * Area = pi * radius * radius, with pi = 3.14.
+ * Try it with several different values for the radius.
  */
 public class Exercise1_3 {
 
     public static void main(String[] args) {
         double pi = 3.14;
 
-        // TODO: declare a few radius values to test, for example:
-        //       double[] radii = {1, 2.5, 5, 10};
-        // (or just declare separate variables radius1, radius2, ...)
+        System.out.println("Area of a circle (pi = 3.14)");
+        System.out.printf("%8s | %12s%n", "Radius", "Area");
+        System.out.println("-----------------------------");
 
-        // TODO: for each radius, compute the area
-        //       area = pi * Math.pow(radius, 2)
-        // and print it, e.g.
-        //       System.out.println("Radius " + radius + " -> area = " + area);
-
-        // (Optional) use a for loop to go through the radii array.
+        // Try several radii: 1, 4, 7 and 10
+        for (double radius = 1; radius <= 10; radius = radius + 3) {
+            double area = pi * Math.pow(radius, 2);
+            System.out.printf("%8.1f | %12.2f%n", radius, area);
+        }
     }
 }

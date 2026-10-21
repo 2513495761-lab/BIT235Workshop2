@@ -19,11 +19,10 @@ public class Exercise1_1 {
         System.out.print("Enter the second integer: ");
         int second = scanner.nextInt();
 
-        // TODO: calculate the difference between the two numbers
-        //       (hint: subtract one from the other)
-        int difference = 0; // replace 0 with the calculation
+        // Difference = first number minus second number
+        int difference = first - second;
 
-        // TODO: display the result, e.g.
-        //       System.out.println("The difference is: " + difference);
+        System.out.println("The difference between " + first + " and " + second
+                + " is: " + difference);
     }
 }

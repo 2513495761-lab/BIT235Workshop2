@@ -10,9 +10,8 @@ Java programs for BIT235 Object Oriented Programming, Workshop 2.
 | Exercise1_4 | Compound interest (Math.pow) |
 | Exercise1_5 | Volumes of the Earth and the Sun (Math.pow) |
 | Exercise1_6 | Fuel consumption |
+| Exercise1_7 | String.substring demo (written answer + verification program) |
 | Exercise1_8 | Compare two strings (equals, charAt) |
-
-Exercise 1.7 is a written question (String.substring) answered in the Workshop 2 document.
 
 ## How to compile and run
 
